@@ -24,3 +24,17 @@
 html {
   background-color: var(--clr-bg);
 }
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  border-left: 6px solid #000;
+  background-color: aquamarine;
+  width: 50%;
+  padding-left: 0.3rem;
+}
