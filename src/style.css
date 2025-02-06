@@ -45,5 +45,6 @@ input[type="text"] {
 
 .para-div {
   margin-top: 2rem;
-  color: #ff1;
+  color: rgb(255, 255, 17);
+  background-color: rgb(38, 0, 255);
 }
