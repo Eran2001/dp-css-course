@@ -10,6 +10,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+*::selection {
+  color: grey;
+  background: yellow;
+}
+
 html {
   background-color: grey;
 }
