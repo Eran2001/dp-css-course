@@ -27,6 +27,7 @@ html {
 
 #app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -37,4 +38,10 @@ html {
   background-color: aquamarine;
   width: 50%;
   padding-left: 0.3rem;
+}
+
+.second {
+  margin-top: 2rem;
+  border-bottom: 6px solid #000;
+  width: 50%;
 }
