@@ -24,25 +24,3 @@
 html {
   background-color: var(--clr-bg);
 }
-
-#app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  border: 10px solid var(--clr-font);
-}
-
-.heading {
-  font-size: 2rem;
-}
-
-.image {
-  background-image: url(./assets//image.jpg);
-  width: 25%;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 2rem;
-}
