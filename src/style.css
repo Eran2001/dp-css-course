@@ -26,25 +26,3 @@ html {
   align-items: center;
   min-height: 100vh;
 }
-
-.input-div {
-  border: 2px solid #ff1;
-  padding: 2rem;
-  width: 50%;
-  margin-top: 2rem;
-}
-
-label[for="fname"] {
-  color: #ff1;
-}
-
-input[type="text"] {
-  color: #000;
-  background-color: #ff1;
-}
-
-.para-div {
-  margin-top: 2rem;
-  color: rgb(255, 255, 17);
-  background-color: rgb(38, 0, 255);
-}
