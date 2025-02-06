@@ -14,17 +14,3 @@ html {
   background-color: grey;
 }
 
-.heading {
-  animation-name: slide-in;
-  animation-duration: 0.7s;
-  animation-timing-function: ease-in;
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateX(-100px);
-  }
-  to {
-    transform: translateX(500px);
-  }
-}
