@@ -37,3 +37,17 @@ html {
 .heading {
   font-size: 2rem;
 }
+
+.image {
+  background-image: url(./assets//image.jpg);
+  width: 25%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 2rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
