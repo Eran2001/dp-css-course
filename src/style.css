@@ -46,6 +46,9 @@ html {
   background-position: center;
   margin-top: 2rem;
   transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: -2.1%;
+  left: 74.5%;
 }
 
 .image:hover {
