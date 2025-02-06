@@ -1,6 +1,7 @@
 :root {
   --clr-bg: #808080;
   --clr-font: #ffff00;
+  --clr-dark: #000;
 }
 
 *,
@@ -30,6 +31,7 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  border: 10px solid var(--clr-dark);
 }
 
 .heading {
