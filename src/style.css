@@ -13,3 +13,8 @@
 html {
   background-color: grey;
 }
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
