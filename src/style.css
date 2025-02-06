@@ -14,11 +14,26 @@ html {
   background-color: grey;
 }
 
-input[type="text"] {
-  color: red;
-  background-color: yellowgreen;
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.input-div {
+  border: 2px solid #ff1;
+  padding: 2rem;
+  width: 50%;
+  margin-top: 2rem;
 }
 
 label[for="fname"] {
-  color: blue;
+  color: #ff1;
+}
+
+input[type="text"] {
+  color: #000;
+  background-color: #ff1;
 }
