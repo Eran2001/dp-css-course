@@ -25,12 +25,7 @@ html {
   background-color: var(--clr-bg);
 }
 
-.heading1 {
+.heading {
   border: 2px solid #000;
-  width: 300%;
-}
-
-.heading2 {
-  border: 2px solid #000;
-  max-width: 300%;
+  max-width: 200%;
 }
