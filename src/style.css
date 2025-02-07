@@ -25,3 +25,6 @@ html {
   background-color: var(--clr-bg);
 }
 
+.heading {
+  max-width: 50%;
+}
