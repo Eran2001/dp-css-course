@@ -38,4 +38,5 @@ html {
   padding: 2rem;
   outline: 10px solid skyblue;
   outline-offset: 15px;
+  direction: rtl;
 }
