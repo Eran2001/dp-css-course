@@ -25,6 +25,16 @@ html {
   background-color: var(--clr-bg);
 }
 
+#app {
+  min-height: 200vh;
+}
+
+.heading-div {
+  position: sticky;
+  top: 5%;
+  border: 2px solid #FFF;
+}
+
 .heading {
   border: 2px solid #000;
   max-width: 200%;
