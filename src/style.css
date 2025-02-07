@@ -38,5 +38,11 @@ html {
   padding: 2rem;
   outline: 10px solid skyblue;
   outline-offset: 15px;
-  direction: rtl;
+  text-decoration: underline dotted 5px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  line-height: 1.5rem;
+  word-spacing: -2.5rem;
+  white-space: 2rem;
+  text-shadow: 3px 2px 5px #fff;
 }
