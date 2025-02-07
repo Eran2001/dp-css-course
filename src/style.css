@@ -27,6 +27,7 @@ html {
 
 #app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -48,3 +49,9 @@ html {
   font-weight: 500;
 }
 
+.icon-div {
+  width: 100px;
+  height: 100px;
+  margin-top: 3rem;
+  background-color: #ffff00;
+}
