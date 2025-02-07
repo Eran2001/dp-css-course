@@ -30,6 +30,9 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  border: 10px solid #000;
+  width: auto;
+  margin: 2rem;
 }
 
 .heading {
@@ -37,4 +40,5 @@ html {
   background-color: #ffff00;
   padding: 2rem;
   outline: 10px solid skyblue;
+  outline-offset: 15px;
 }
