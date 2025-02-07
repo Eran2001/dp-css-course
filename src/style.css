@@ -25,6 +25,16 @@ html {
   background-color: var(--clr-bg);
 }
 
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .heading {
-  max-width: 50%;
+  border: 10px solid #000;
+  background-color: #ffff00;
+  padding: 2rem;
+  outline: 10px solid skyblue;
 }
