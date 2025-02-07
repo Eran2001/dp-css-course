@@ -24,3 +24,12 @@
 html {
   background-color: var(--clr-bg);
 }
+
+body {
+  background-image: url("./assets/image.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
