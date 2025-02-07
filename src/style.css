@@ -4,7 +4,7 @@
   --clr-dark: #fff;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", cursive;
-}
+} */
 
 *::selection {
   color: var(--clr-bg);
@@ -25,3 +25,20 @@ html {
   background-color: var(--clr-bg);
 }
 
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ffff00;
+  border: 2px solid #000;
+  display: inline-block;
+}
+
+.item-1, .item-2, .item-3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-2 {
+  visibility: hidden;
+}
