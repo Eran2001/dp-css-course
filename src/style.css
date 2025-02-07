@@ -29,13 +29,15 @@ html {
   min-height: 200vh;
 }
 
-.heading-div {
+.sticky {
   position: sticky;
-  top: 5%;
-  border: 2px solid #FFF;
+  top: 0;
 }
 
-.heading {
-  border: 2px solid #000;
-  max-width: 200%;
+.heading-div {
+  top: 5%;
+  padding: 1.5rem;
+  background-color: #FFF;
+  z-index: 10;
+  position: relative;
 }
