@@ -33,10 +33,10 @@ html {
 }
 
 .heading {
-  border: 10px solid #000;
+  border: 10px solid skyblue;
   background-color: #ffff00;
   padding: 2rem;
-  outline: 10px solid skyblue;
+  outline: 10px solid #000;
   outline-offset: 15px;
   text-decoration: underline dotted 5px;
   text-transform: uppercase;
@@ -44,5 +44,5 @@ html {
   line-height: 1.5rem;
   word-spacing: -2.5rem;
   white-space: 2rem;
-  text-shadow: 3px 2px 5px #fff;
+  text-shadow: 3px 2px 5px skyblue;
 }
