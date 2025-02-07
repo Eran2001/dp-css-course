@@ -4,7 +4,7 @@
   --clr-dark: #fff;
 }
 
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", cursive;
-} */
+}
 
 *::selection {
   color: var(--clr-bg);
@@ -32,12 +32,12 @@ html {
 .sticky {
   position: sticky;
   top: 0;
+  z-index: -1;
 }
 
 .heading-div {
-  top: 5%;
+  position: sticky;
+  top: 7%;
   padding: 1.5rem;
-  background-color: #FFF;
-  z-index: 10;
-  position: relative;
+  background-color: #ffff00;
 }
