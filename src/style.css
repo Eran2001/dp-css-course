@@ -26,28 +26,5 @@ html {
 }
 
 #app {
-  min-height: 200vh;
-}
-
-.top {
-  background-color: blue;
-  width: 100%;
-  height: 90vh;
-}
-
-.img {
-  position: relative;
-  top: 40%;
-  width: 100%;
-  height: 20vh;
-  background-image: url("./assets/image.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.bottom {
-  background-color: rgb(18, 179, 197);
-  width: 100%;
-  height: 90vh;
+  min-height: 100vh;
 }
