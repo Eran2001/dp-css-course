@@ -25,20 +25,6 @@ html {
   background-color: var(--clr-bg);
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #ffff00;
+.heading {
   border: 2px solid #000;
-  display: inline-block;
-}
-
-.item-1, .item-2, .item-3 {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item-2 {
-  visibility: hidden;
 }
