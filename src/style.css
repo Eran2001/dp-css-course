@@ -30,9 +30,6 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  border: 10px solid #000;
-  width: auto;
-  margin: 2rem;
 }
 
 .heading {
