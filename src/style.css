@@ -25,13 +25,12 @@ html {
   background-color: var(--clr-bg);
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  margin: auto;
+.input {
+  background-color: yellow;
+  border: 2px solid red;
 }
 
-.box ~ h1 {
-  color: yellow;
+.input:focus {
+  background-color: black;
+  color: white;
 }
