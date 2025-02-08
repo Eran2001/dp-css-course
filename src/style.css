@@ -25,10 +25,6 @@ html {
   background-color: var(--clr-bg);
 }
 
-#app {
-  width: 50%;
-}
-
 .box {
   width: 100px;
   height: 100px;
