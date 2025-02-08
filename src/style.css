@@ -33,6 +33,10 @@ html {
   padding: 5rem;
   background-color: yellowgreen;
   opacity: 0.5;
+  animation-name: app1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 }
 
 #app2 {
@@ -43,6 +47,10 @@ html {
   padding: 5rem;
   background-color: yellowgreen;
   opacity: 0.6;
+  animation-name: app1;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 }
 
 #app3 {
@@ -53,8 +61,11 @@ html {
   padding: 5rem;
   background-color: yellowgreen;
   opacity: 0.7;
+  animation-name: app1;
+  animation-duration: 7s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 }
-
 
 #app4 {
   position: absolute;
@@ -64,6 +75,10 @@ html {
   padding: 5rem;
   background-color: yellowgreen;
   opacity: 0.8;
+  animation-name: app1;
+  animation-duration: 9s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 }
 
 #app5 {
@@ -74,6 +89,10 @@ html {
   padding: 5rem;
   background-color: yellowgreen;
   opacity: 0.9;
+  animation-name: app1;
+  animation-duration: 11s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 }
 
 #app1:hover {
@@ -96,3 +115,13 @@ html {
   background-color: red;
 }
 
+@keyframes app1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(90%) translateX(40%);
+  }
+}
