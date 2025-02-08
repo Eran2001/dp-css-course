@@ -25,12 +25,3 @@ html {
   background-color: var(--clr-bg);
 }
 
-.input {
-  background-color: yellow;
-  border: 2px solid red;
-}
-
-.input:focus {
-  background-color: black;
-  color: white;
-}
