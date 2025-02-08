@@ -24,3 +24,16 @@
 html {
   background-color: var(--clr-bg);
 }
+
+.heading::first-letter {
+  color: #ffff00;
+}
+
+.para {
+  width: 40%;
+}
+
+.para::first-line {
+  background-color: #ffff00;
+  text-transform: uppercase;
+}
