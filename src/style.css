@@ -25,34 +25,3 @@ html {
   background-color: var(--clr-bg);
 }
 
-#app {
-  border: 2px solid;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: violet;
-  float: left;
-  margin-right: 1rem;
-}
-
-.box1 {
-  width: 200px;
-  height: 200px;
-  background-color: violet;
-  float: right;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
-
-.para {
-  clear: right;
-  text-align: justify;
-  border: 1px solid;
-}
-
-.para1 {
-  text-align: justify;
-  clear: left;
-}
