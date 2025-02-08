@@ -25,3 +25,17 @@ html {
   background-color: var(--clr-bg);
 }
 
+.head {
+  width: 12%;
+  border: 2px solid;
+  margin: 2rem 0 0 2rem;
+  background-color: yellowgreen;
+}
+
+.head::after {
+  content: "World";
+  width: 12%;
+  border: 2px solid;
+  margin: 2rem 0 0 2rem;
+  background-color: rgb(205, 197, 50);
+}
