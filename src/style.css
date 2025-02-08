@@ -27,7 +27,6 @@ html {
 
 #app {
   border: 2px solid;
-  display: flow-root;
 }
 
 .box {
@@ -35,7 +34,7 @@ html {
   height: 200px;
   background-color: violet;
   float: left;
-  margin-right: 1rem;;
+  margin-right: 1rem;
 }
 
 .box1 {
@@ -50,6 +49,7 @@ html {
 .para {
   clear: right;
   text-align: justify;
+  border: 1px solid;
 }
 
 .para1 {
