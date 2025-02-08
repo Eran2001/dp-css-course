@@ -54,3 +54,7 @@ html {
 .head:hover .hello {
   display: block;
 }
+
+h1:not(.h1) {
+  color: red;
+}
