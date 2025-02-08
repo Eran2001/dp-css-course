@@ -25,3 +25,31 @@ html {
   background-color: var(--clr-bg);
 }
 
+.head {
+  margin: auto;
+}
+
+.hello {
+  display: none;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  list-style: none;
+}
+
+.hello li {
+  cursor: pointer;
+  background-color: rgb(84, 81, 81);
+  width: 20%;
+  padding: 5px;
+  text-align: center;
+}
+
+.hello li:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.head:hover .hello {
+  display: block;
+}
