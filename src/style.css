@@ -31,3 +31,7 @@ html {
   background-color: red;
   margin: auto;
 }
+
+.box ~ h1 {
+  color: yellow;
+}
