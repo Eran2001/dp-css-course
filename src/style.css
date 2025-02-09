@@ -27,20 +27,27 @@ html {
 
 #nav {
   background-color: #3e3e3e;
-  padding: 1rem;
+  padding: 0;
 }
 
 .nav-ul {
   display: flex;
-  gap: 2rem;
 }
 
 .nav-ul li {
-  display: flex;
-  list-style: none;
-  color: #FFF;
+  display: block;
+  color: #FFF; 
+  padding: 1rem 1rem; 
+}
+
+.nav-ul li:hover {
+  background-color: #000;
 }
 
 .nav-ul li:last-child {
   margin-left: auto;
+}
+
+.nav-ul li:nth-child(1) {
+  background-color: #338857;
 }
