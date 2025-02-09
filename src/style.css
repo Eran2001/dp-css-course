@@ -25,29 +25,3 @@ html {
   background-color: var(--clr-bg);
 }
 
-#nav {
-  background-color: rgb(57, 56, 56);
-  width: 60%;
-  padding: 1rem;
-  padding: 0;
-}
-
-#nav .nav-ul {
-  list-style: none;
-  width: 100%;
-}
-
-#nav .nav-li {
-  display: block;
-  color: #FFF;
-  padding: 0.75rem;
-  width: 100%;
-}
-
-#nav .nav-li:nth-child(1) {
-  background-color: #037857;
-}
-
-#nav .nav-li:not(:nth-child(1)):hover {
-  background-color: gray;
-}
