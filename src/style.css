@@ -24,3 +24,20 @@
 html {
   background-color: var(--clr-bg);
 }
+
+div {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+h2 {
+  display: none;
+  position: absolute;
+}
+
+div:hover h2{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
