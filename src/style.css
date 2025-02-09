@@ -53,3 +53,13 @@ p {
     align-items: center;
   }
 }
+
+@media screen and (min-width: 732px) {
+  .app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
