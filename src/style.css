@@ -45,3 +45,11 @@ p {
   margin: 1rem 0;
   text-align: center;
 }
+
+@media screen and (max-width: 732px) {
+  .app {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
