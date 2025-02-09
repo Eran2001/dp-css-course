@@ -25,34 +25,4 @@ html {
   background-color: var(--clr-bg);
 }
 
-#nav {
-  background-color: #1c1c1c;
-  
-}
 
-.nav-ul {
-  display: flex;
-}
-
-.nav-ul li {
-  cursor: pointer;
-  color: #FFF;
-  padding: 1rem;
-  list-style: none;
-}
-
-.nav-ul li:hover {
-  background-color: #383838;
-}
-
-.nav-ul li:nth-child(3) {
-  background-color: rgb(6, 110, 152);
-}
-
-.nav-ul li:last-child {
-  margin-left: auto;
-}
-
-.nav-ul li:not(:nth-child(3)) {
-  color: rgb(200, 200, 200);
-}
