@@ -25,4 +25,45 @@ html {
   background-color: var(--clr-bg);
 }
 
+#nav {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+}
 
+.hidden-main {
+  visibility: hidden;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  background-color: #181717;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#nav li {
+  list-style-type: none;
+  padding: 2rem;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.link {
+  background-color: rgb(26, 187, 58);
+}
+
+.img {
+  display: flex;
+}
+
+.img p {
+  margin-right: 0.5rem;
+}
+
+.main:hover .hidden-main  {
+  visibility: visible;
+  opacity: 1;
+}
