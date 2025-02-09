@@ -1,5 +1,5 @@
 :root {
-  --clr-bg: #414141;
+  --clr-bg: #676767;
   --clr-font: #ffff00;
   --clr-dark: #fff;
 }
@@ -25,3 +25,24 @@ html {
   background-color: var(--clr-bg);
 }
 
+#nav {
+  background-color: #3e3e3e;
+  padding: 1rem;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-ul li {
+  display: flex;
+  list-style: none;
+  color: #FFF;
+}
+
+.nav-ul li:nth-child(4) {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+}
