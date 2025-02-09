@@ -25,3 +25,23 @@ html {
   background-color: var(--clr-bg);
 }
 
+.app {
+  display: flex;
+  margin-left: 7rem;
+  gap: 2rem;
+}
+
+.main-div {
+  width: 402px;
+  height: auto;
+  border: 1px solid #232323;
+}
+
+.main-div:hover {
+  border-color: #aba7a7;
+}
+
+p {
+  margin: 1rem 0;
+  text-align: center;
+}
