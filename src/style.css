@@ -25,29 +25,3 @@ html {
   background-color: var(--clr-bg);
 }
 
-#nav {
-  background-color: #3e3e3e;
-  padding: 0;
-}
-
-.nav-ul {
-  display: flex;
-}
-
-.nav-ul li {
-  display: block;
-  color: #FFF; 
-  padding: 1rem 1rem; 
-}
-
-.nav-ul li:hover {
-  background-color: #000;
-}
-
-.nav-ul li:last-child {
-  margin-left: auto;
-}
-
-.nav-ul li:nth-child(1) {
-  background-color: #338857;
-}
