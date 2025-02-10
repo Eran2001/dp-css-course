@@ -22,58 +22,6 @@
 }
 
 html {
-  background-color: #000;
+  background-color: var(--clr-bg);
 }
 
-.app {
-  position: relative;
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 200px 3fr 200px;
-  grid-template-rows: 80px 50px 3fr 75px;
-  grid-template-areas: 
-    "header header header"
-    "nav nav nav"
-    "aside-left main aside-right"
-    "footer footer footer";
-    row-gap: 0.5rem;
-    column-gap: 0.5rem;
-}
-
-header {
-  grid-area: header;
-  background-color: #ff5100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav {
-  grid-area: nav;
-  background-color: #e1c600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-aside {
-  background-color: #2de100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main {
-  background-color: #00e1e1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer {
-  grid-area: footer;
-  background-color: #e10038;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
