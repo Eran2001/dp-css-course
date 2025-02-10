@@ -34,5 +34,6 @@ html {
 
 h1 {
   color: #FFF;
+  transform: skewX(20deg);
 }
 
