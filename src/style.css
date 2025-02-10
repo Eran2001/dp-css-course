@@ -27,5 +27,5 @@ html {
 
 .app {
   background-color: red;
-  width: calc(100vw - 2rem);
+  width: max(10%, 80%);
 }
