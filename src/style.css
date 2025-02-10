@@ -25,7 +25,11 @@ html {
   background-color: var(--clr-bg);
 }
 
+div {
+  border: 10px solid blue;
+  padding: 2rem;
+}
+
 h1 {
-  color: red;
-  border: 10px solid currentColor;
+  border: inherit;
 }
