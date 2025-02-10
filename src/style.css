@@ -68,36 +68,3 @@ nav ul li:last-child {
   margin-left: auto;
 }
 
-main {
-  margin: 1rem;
-  display: grid;
-  grid-template-rows: repeat(9, 1fr);
-  grid-template-columns: repeat(9, 1fr);
-  height: 100vh;
-}
-
-main div {
-  background-color: #000;
-  color: #FFF;
-  border: 1px solid #FFF;
-}
-
-.title-top {
-  grid-area: 1 / 1 / 5 / 7;
-}
-
-.about {
-  grid-area: 1 / 8 / 4 / 10;
-}
-
-.title-bottom {
-  grid-area: 6 / 1 / 10 / 7;
-}
-
-.post {
-  grid-area: 4 / 8 / 8 / 10;
-}
-
-.follow {
-  grid-area: 8 / 8 / 9 / 10;
-}
