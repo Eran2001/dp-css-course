@@ -25,3 +25,7 @@ html {
   background-color: var(--clr-bg);
 }
 
+h1 {
+  color: red;
+  border: 10px solid currentColor;
+}
