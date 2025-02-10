@@ -34,10 +34,5 @@ html {
 
 h1 {
   color: #FFF;
-  transition: color 3s ease-in-out;
-}
-
-h1:hover {
-  color: #000;
 }
 
