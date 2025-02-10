@@ -25,11 +25,22 @@ html {
   background-color: var(--clr-bg);
 }
 
-div {
-  border: 10px solid blue;
-  padding: 2rem;
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #305fa4 0%, #b50270 100%);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
 }
 
-h1 {
-  border: inherit;
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
