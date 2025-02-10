@@ -27,5 +27,5 @@ html {
 
 .app {
   background-color: red;
-  width: max(10%, 80%);
+  width: min(10%, 80%);
 }
