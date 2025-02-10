@@ -89,6 +89,7 @@ main div {
   width: 23.5%;
   background-color: #000;
   height: 30vh;
+  padding: 2rem;
 }
 
 .bottom-left-div {
@@ -106,6 +107,7 @@ main div {
   background-color: #000;
   height: 50vh;
   margin-top: -16rem;
+  padding: 2rem;
 }
 
 .bottom-right-div {
@@ -114,6 +116,7 @@ main div {
   width: 23.5%;
   background-color: #000;
   height: 20vh;
+  padding: 2rem;
 }
 
 /* top left div */
@@ -156,4 +159,44 @@ main div {
 .bottom-left-div > .some {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+/* top-right-div */
+.top-right-div > div {
+  padding: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #343333;
+  width: 98%;
+  height: 45%;
+}
+
+/* middle-right-div */
+.middle-right-div > h2 {
+  margin-bottom: 2rem;
+}
+
+.middle-right-div > div {
+  padding: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #343333;
+  width: 98%;
+  height: 85%;
+}
+
+.middle-right-div > div > p {
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+}
+
+/* bottom-right-div */
+.bottom-right-div > h2 {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 845px) {
+  .last {
+    display: none;
+  }
 }
