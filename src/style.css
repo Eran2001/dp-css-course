@@ -32,11 +32,3 @@ body {
   min-height: 100vh;
 }
 
-.app {
-  height: 50vh;
-  width: 50%;
-  background-image: url(./assets/g_1.jpg), url(./assets/g_2.jpg);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-  padding: 15px;
-}
