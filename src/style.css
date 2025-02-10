@@ -35,6 +35,8 @@ body {
 .app {
   width: 300px;
   height: 300px;
+  border: 10px solid transparent;
+  border-image: url(./assets/g_1.jpg) 30 round;
   background-color: violet;
   border-start-start-radius: 30px;
   border-start-end-radius: 100px;
