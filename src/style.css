@@ -25,3 +25,14 @@ html {
   background-color: var(--clr-bg);
 }
 
+h1 {
+  color: red;
+}
+
+.head {
+  color: blue;
+}
+
+#h {
+  color: green;
+}
