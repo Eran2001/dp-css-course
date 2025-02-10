@@ -25,3 +25,7 @@ html {
   background-color: var(--clr-bg);
 }
 
+.app {
+  background-color: red;
+  width: calc(100vw - 2rem);
+}
