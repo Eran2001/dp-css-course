@@ -25,3 +25,40 @@ html {
   background-color: var(--clr-bg);
 }
 
+form {
+  height: 60vh;
+  width: 80%;
+  background-color: #242323;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+form:hover {
+  background-color: #282828;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  height: 2.5rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #FFF;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 2.5rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #FFF;
+  font-size: 1rem;
+  cursor: pointer;
+}
