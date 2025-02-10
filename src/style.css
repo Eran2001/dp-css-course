@@ -36,23 +36,3 @@ h1 {
   color: #FFF;
 }
 
-h1:hover {
-  padding: 1rem 10rem;
-  border: 2px solid skyblue;
-  box-shadow: 3px 3px 10px rgba(135, 206, 235, 0.5);
-  transition: all 0.3s ease-out;
-  animation-name: bg-color;
-  animation-duration: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes bg-color {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    background-color: rgb(9, 36, 47);
-    opacity: 1;
-  }
-}
