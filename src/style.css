@@ -33,6 +33,7 @@ html {
 }
 
 h1 {
+  margin-right: 2rem;
   border: 2px solid;
   padding: 4rem;
   box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
