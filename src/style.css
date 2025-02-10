@@ -68,3 +68,48 @@ nav ul li:last-child {
   margin-left: auto;
 }
 
+main {
+  margin: 1rem;
+}
+
+main div {
+  color: #FFF;
+}
+
+.top-left-div {
+  float: left;
+  width: 75%;
+  background-color: #000;
+  height: 60vh;
+}
+
+.top-right-div {
+  float: right;
+  width: 23.5%;
+  background-color: #000;
+  height: 30vh;
+}
+
+.bottom-left-div {
+  margin-top: 1.5rem;
+  float: left;
+  width: 75%;
+  background-color: #000;
+  height: 60vh;
+}
+
+.middle-right-div {
+  float: right;
+  width: 23.5%;
+  background-color: #000;
+  height: 50vh;
+  margin-top: -16rem;
+}
+
+.bottom-right-div {
+  margin-top: 1.5rem;
+  float: right;
+  width: 23.5%;
+  background-color: #000;
+  height: 20vh;
+}
