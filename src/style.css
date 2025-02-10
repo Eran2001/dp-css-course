@@ -25,7 +25,3 @@ html {
   background-color: var(--clr-bg);
 }
 
-.app {
-  background-color: red;
-  width: min(10%, 80%);
-}
