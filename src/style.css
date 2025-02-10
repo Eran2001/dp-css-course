@@ -25,3 +25,18 @@ html {
   background-color: var(--clr-bg);
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  width: 300px;
+  height: 300px;
+  background-color: violet;
+  border-start-start-radius: 30px;
+  border-start-end-radius: 100px;
+  border-bottom-right-radius: 50px;
+}
