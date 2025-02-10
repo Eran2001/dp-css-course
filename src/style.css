@@ -28,7 +28,7 @@ html {
 .app {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #305fa4 0%, #b50270 100%);
+  background: radial-gradient(circle, #1611a1, #b30355, #c2031c);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
 }
