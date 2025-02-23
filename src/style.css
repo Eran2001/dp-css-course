@@ -28,4 +28,5 @@ html {
 h1 {
   color: hsla(198, 55%, 47%, 0.5);
   font-size: 2em;
+  font-family: monospace;
 }
