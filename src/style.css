@@ -25,8 +25,16 @@ html {
   background-color: var(--clr-bg);
 }
 
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 h1 {
   color: hsla(198, 55%, 47%, 0.5);
-  font-size: 2em;
+  font-size: 5em;
   font-family: monospace;
+  text-shadow: 10px 10px;
 }
