@@ -24,3 +24,7 @@
 html {
   background-color: var(--clr-bg);
 }
+
+h1 {
+  color: hwb(198 25% 27% / 0.295);
+}
