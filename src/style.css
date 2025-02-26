@@ -39,3 +39,9 @@ h1 {
 h1:hover {
   transform: scale(0, 2);
 }
+
+h1::after {
+  content: "World";
+  position: relative;
+  margin: 1rem;
+}
