@@ -23,33 +23,21 @@
   background: var(--clr-font);
 }
 
+body {
+  overflow-x: auto;
+  margin: 0;
+}
+
 html {
   background-color: var(--clr-bg);
 }
 
 h1 {
-  text-align: center;
   margin-top: 4rem;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: underline;
   transition: transform 0.3s;
-}
-
-h1:hover {
-  transform: scale(2);
-}
-
-h1::after {
-  content: "World";
-  position: relative;
-  margin: 1rem;
-}
-
-h1::first-letter {
-  color: red;
-}
-
-h1::first-line {
-  background-color: #ffff00;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
