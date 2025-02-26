@@ -28,7 +28,14 @@ html {
 }
 
 h1 {
+  text-align: center;
+  margin-top: 4rem;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: underline;
+  transition: transform 0.3s;
+}
+
+h1:hover {
+  transform: scale(2);
 }
