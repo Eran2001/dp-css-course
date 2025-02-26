@@ -539,7 +539,7 @@ form .footer-input {
   text-shadow: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1220px) {
   .footer-container {
     flex-direction: column;
     text-align: center;
@@ -566,6 +566,14 @@ form .footer-input {
 }
 
 @media (max-width: 1220px) {
+  header h1 {
+    display: none;
+  }
+
+  header p {
+    display: none;
+  }
+
   .check-btn {
     display: block;
     order: 1;
