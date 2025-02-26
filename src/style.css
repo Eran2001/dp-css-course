@@ -31,11 +31,16 @@ body {
 }
 
 nav {
-  /* background-color: red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.2rem;
+}
+
+nav img {
+  cursor: pointer;
+  width: 12%;
+  height: 2.5rem;
 }
 
 nav ul {
@@ -44,10 +49,47 @@ nav ul {
 
 nav ul li {
   padding-right: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+nav ul li:hover {
+  color: var(--clr-hover); 
+  text-decoration-color: var(--clr-hover);
 }
 
 nav button {
   cursor: pointer;
   border: 1px solid #000;
   padding: 0.2rem 2rem;
+  transition: background-color 0.3s;
+}
+
+nav button:hover {
+  background-color: var(--clr-hover);
+}
+
+header {
+  min-height: 92.3vh;
+  background-color: red;
+}
+
+#services {
+  background-color: blue;
+  min-height: 100vh;
+}
+
+#gallery {
+  background-color: rgb(255, 0, 119);
+  min-height: 100vh;
+}
+
+#about {
+  background-color: rgb(0, 255, 238);
+  min-height: 100vh;
+}
+
+footer {
+  background-color: green;
+  min-height: 30vh;
 }
