@@ -7,6 +7,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
@@ -17,11 +21,11 @@
           <img src="./src/assets/white.png" alt="" />
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
           </ul>
-          <button type="button">Contact</button>
+          <button type="button" class="btn">Contact</button>
         </nav>
         <header>
           <h1 class="header">Capturing Moments, Creating Memories</h1>
@@ -29,6 +33,21 @@
             Explore the world through my lens and turn every moment into a
             timeless story.
           </p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevrons-down"
+          >
+            <path d="m7 6 5 5 5-5" />
+            <path d="m7 13 5 5 5-5" />
+          </svg>
         </header>
       </div>
       <section id="services">
@@ -40,7 +59,7 @@
       <section id="about">
         <h2>About</h2>
       </section>
-      <footer>
+      <footer id="footer">
         <h2>Contact</h2>
       </footer>
     </div>
@@ -50,14 +69,17 @@
         let navbar = document.getElementById("navbar");
         let header = document.querySelector(".header");
         let para = document.querySelector(".para");
+        let lucide = document.querySelector(".lucide");
         if (window.scrollY > 50) {
           navbar.classList.add("scrolled");
           header.classList.add("hidden");
           para.classList.add("hidden");
+          lucide.classList.add("hidden");
         } else {
           navbar.classList.remove("scrolled");
           header.classList.remove("hidden");
           para.classList.remove("hidden");
+          lucide.classList.remove("hidden");
         }
       });
     </script>

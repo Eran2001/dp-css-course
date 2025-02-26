@@ -49,8 +49,8 @@ nav.scrolled {
 
 nav img {
   cursor: pointer;
-  width: 12%;
-  height: 2.5rem;
+  width: 15%;
+  height: 2.8rem;
 }
 
 nav ul {
@@ -74,7 +74,7 @@ nav ul li:hover {
   text-decoration-color: var(--clr-hover);
 }
 
-nav button {
+nav .btn {
   cursor: pointer;
   color: var(--clr-light);
   border: 1px solid var(--clr-light);
@@ -82,8 +82,16 @@ nav button {
   transition: background-color 0.3s;
 }
 
-nav button:hover {
+nav .btn:hover {
   background-color: var(--clr-hover);
+}
+
+#toggle-button {
+  display: none;
+  position: relative;
+  top: 2%;
+  left: 40%;
+  color: var(--clr-light);
 }
 
 header {
@@ -117,11 +125,25 @@ header p {
   transition: opacity 0.5s ease-in-out;
 }
 
-.show {
-  opacity: 1;
-  visibility: visible;
+.lucide {
+  color: #fff;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 88%;
+  left: 46%;
+  margin: 0 auto;
+  animation: animation 1s ease-in infinite;
 }
 
+@keyframes animation {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
 #services {
   background-color: blue;
   min-height: 100vh;
@@ -140,4 +162,14 @@ header p {
 footer {
   background-color: green;
   min-height: 30vh;
+}
+
+@media screen and (max-width: 1216px) {
+  nav img {
+    width: 30%;
+    height: 4rem;
+  }
+  nav ul {
+    display: none;
+  }
 }
