@@ -45,3 +45,11 @@ h1::after {
   position: relative;
   margin: 1rem;
 }
+
+h1::first-letter {
+  color: red;
+}
+
+h1::first-line {
+  background-color: #ffff00;
+}
