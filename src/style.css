@@ -594,7 +594,7 @@ form .footer-input {
     top: 80px;
     right: -100%;
     background-color: var(--clr-font);
-    width: 40%;
+    width: 60%;
     height: 100vh;
     display: flex;
     flex-direction: column;
