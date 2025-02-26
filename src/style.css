@@ -314,7 +314,6 @@ header p {
   margin: 3rem 10rem;
 }
 
-/* Gallery Items */
 .gallery-item {
   position: relative;
   overflow: hidden;
@@ -331,12 +330,10 @@ header p {
   transition: transform 0.3s ease;
 }
 
-/* Hover Effect */
 .gallery-item:hover img {
   transform: scale(1.1);
 }
 
-/* Custom Grid Sizes */
 .large {
   grid-column: span 2;
   grid-row: span 2;
@@ -353,6 +350,69 @@ header p {
 #about {
   background-color: var(--clr-bg);
   min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--clr-light);
+  margin-top: 3rem;
+}
+
+#about p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#about h3 {
+  font-size: 1.5rem;
+  color: var(--clr-light);
+}
+
+.skills-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  max-width: 600px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  background-color: #222;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  background-color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 footer {
