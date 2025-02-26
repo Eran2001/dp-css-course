@@ -7,6 +7,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
@@ -15,7 +20,11 @@
       <div class="hero">
         <nav id="navbar">
           <img src="./src/assets/white.png" alt="" />
-          <ul>
+          <input type="checkbox" id="check" />
+          <label for="check" class="check-btn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <ul id="nav-links" class="top-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#gallery">Gallery</a></li>
@@ -244,7 +253,37 @@
       </section>
 
       <footer id="footer">
-        <h2>Contact</h2>
+        <div class="footer-container">
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h3>Stay Connected</h3>
+            <form>
+              <input
+                class="footer-input"
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit">Send Email</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="year"></span> Eran Hasareli. All rights reserved.
+          </p>
+        </div>
       </footer>
     </div>
     <script type="module" src="/src/main.js"></script>

@@ -91,10 +91,6 @@ nav .btn:hover {
 
 #toggle-button {
   display: none;
-  position: relative;
-  top: 2%;
-  left: 40%;
-  color: var(--clr-light);
 }
 
 header {
@@ -167,7 +163,7 @@ header p {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   gap: 20px;
-  margin: 2rem 8rem;
+  margin: 2rem auto;
 }
 
 .service-card {
@@ -456,5 +452,153 @@ tr:hover {
 
   .skills-table {
     justify-content: center;
+  }
+}
+
+#footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 2rem;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links ul li a:hover {
+  color: var(--clr-hover);
+}
+
+.footer-contact form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-contact input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.footer-contact button {
+  background-color: var(--clr-hover);
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form .footer-input {
+  border: 1px solid #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  margin-top: 2rem;
+  text-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-contact form {
+    flex-direction: column;
+  }
+
+  .footer-contact input {
+    width: 100%;
+  }
+}
+
+.check-btn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  .check-btn {
+    display: block;
+    order: 1;
+    margin-right: 20px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  #nav-links {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: var(--clr-font);
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+
+  #nav-links li {
+    margin: 20px 0;
+  }
+
+  #nav-links li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ #nav-links {
+    right: 0;
   }
 }
