@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --clr-bg: #525151;
-  --clr-font: #ffff00;
-  --clr-dark: #fff;
+  --clr-bg: #4c7b8b;
+  --clr-font: #23486a;
+  --clr-sec: #3b6790
+  --clr-light: #fff;
+  --clr-hover: #efb036;
+
 }
 
 *,
@@ -21,4 +24,8 @@
 *::selection {
   color: var(--clr-bg);
   background: var(--clr-font);
+}
+
+body {
+  background-color: var(--clr-bg);
 }
