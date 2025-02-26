@@ -13,7 +13,28 @@
   <body>
     <div class="app">
       <h1>Hello</h1>
+      <input type="text" id="search" placeholder="Search..." />
+      <ul id="items">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Blueberry</li>
+      </ul>
     </div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      document.getElementById("search").addEventListener("input", function () {
+        let query = this.value.toLowerCase();
+        let items = document.querySelectorAll("#items li");
+
+        items.forEach(function (item) {
+          if (item.textContent.toLowerCase().includes(query)) {
+            item.style.display = "list-item"; // Show item
+          } else {
+            item.style.display = "none"; // Hide item
+          }
+        });
+      });
+    </script>
   </body>
 </html>
