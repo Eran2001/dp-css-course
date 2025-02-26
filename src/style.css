@@ -38,6 +38,9 @@ h1 {
   font-weight: bold;
   text-decoration: underline;
   transition: transform 0.3s;
-  white-space: nowrap;
   overflow-x: hidden;
+}
+
+ul {
+  background-color: red;
 }
