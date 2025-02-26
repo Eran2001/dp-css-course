@@ -56,5 +56,12 @@ input[type="text"] {
 }
 
 ul {
-  background-color: red;
+  width: 50%;
+  margin: 0 auto;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding: 0.55rem;
 }
