@@ -29,3 +29,25 @@
 body {
   background-color: var(--clr-bg);
 }
+
+nav {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding-right: 2rem;
+}
+
+nav button {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 0.2rem 2rem;
+}
