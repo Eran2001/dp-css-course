@@ -12,19 +12,25 @@
   </head>
   <body>
     <div class="app">
-      <nav>
-        <img src="./src/assets/logo.png" alt="" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <button type="button">Contact</button>
-      </nav>
-      <header>
-        <h2>Home</h2>
-      </header>
+      <div class="hero">
+        <nav id="navbar">
+          <img src="./src/assets/white.png" alt="" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <button type="button">Contact</button>
+        </nav>
+        <header>
+          <h1 class="header">Capturing Moments, Creating Memories</h1>
+          <p class="para">
+            Explore the world through my lens and turn every moment into a
+            timeless story.
+          </p>
+        </header>
+      </div>
       <section id="services">
         <h2>Services</h2>
       </section>
@@ -39,5 +45,21 @@
       </footer>
     </div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      window.addEventListener("scroll", function () {
+        let navbar = document.getElementById("navbar");
+        let header = document.querySelector(".header");
+        let para = document.querySelector(".para");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+          header.classList.add("hidden");
+          para.classList.add("hidden");
+        } else {
+          navbar.classList.remove("scrolled");
+          header.classList.remove("hidden");
+          para.classList.remove("hidden");
+        }
+      });
+    </script>
   </body>
 </html>

@@ -3,10 +3,9 @@
 :root {
   --clr-bg: #4c7b8b;
   --clr-font: #23486a;
-  --clr-sec: #3b6790
+  --clr-sec: #3b6790;
   --clr-light: #fff;
   --clr-hover: #efb036;
-
 }
 
 *,
@@ -26,15 +25,26 @@
   background: var(--clr-font);
 }
 
-body {
-  background-color: var(--clr-bg);
+.hero {
+  background-image: url("./assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1.2rem;
+  position: fixed;
+  transition: 0.9s;
+}
+
+nav.scrolled {
+  background: transparent;
+  backdrop-filter: blur(5px);
 }
 
 nav img {
@@ -48,19 +58,26 @@ nav ul {
 }
 
 nav ul li {
+  color: var(--clr-light);
+  font-size: 1.2rem;
   padding-right: 2rem;
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
 
+nav ul li a {
+  text-shadow: 3px 3px 10px #000;
+}
+
 nav ul li:hover {
-  color: var(--clr-hover); 
+  color: var(--clr-hover);
   text-decoration-color: var(--clr-hover);
 }
 
 nav button {
   cursor: pointer;
-  border: 1px solid #000;
+  color: var(--clr-light);
+  border: 1px solid var(--clr-light);
   padding: 0.2rem 2rem;
   transition: background-color 0.3s;
 }
@@ -70,8 +87,39 @@ nav button:hover {
 }
 
 header {
-  min-height: 92.3vh;
-  background-color: red;
+  min-height: 100vh;
+}
+
+header h1,
+p {
+  color: var(--clr-light);
+  text-shadow: 10px 10px 10px #000;
+}
+
+header h1 {
+  position: absolute;
+  font-size: 5rem;
+  top: 70%;
+  left: 12%;
+  animation: gone 0.3s;
+}
+
+header p {
+  position: absolute;
+  font-size: 2rem;
+  top: 81%;
+  left: 20%;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 #services {
