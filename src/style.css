@@ -41,6 +41,10 @@ h1 {
   overflow-x: hidden;
 }
 
+input[type="text"] {
+  background-color: #ffff00;
+}
+
 ul {
   background-color: red;
 }
