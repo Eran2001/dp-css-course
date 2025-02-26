@@ -440,7 +440,7 @@ tr:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1220px) {
   .about-container {
     flex-direction: column;
     text-align: center;
@@ -572,6 +572,11 @@ form .footer-input {
 
   header p {
     display: none;
+  }
+
+  .services-grid {
+    display: flex;
+    flex-direction: column;
   }
 
   .check-btn {
