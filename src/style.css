@@ -25,6 +25,10 @@
   background: var(--clr-font);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background-image: url("./assets/hero.jpg");
   background-size: cover;
@@ -116,6 +120,18 @@ header p {
   font-size: 2rem;
   top: 81%;
   left: 20%;
+}
+
+@media screen and (max-width: 1600px) {
+  header h1 {
+    font-size: 3rem;
+    left: 20%;
+  }
+
+  header p {
+    font-size: 1rem;
+    left: 30%;
+  }
 }
 
 .hidden {
